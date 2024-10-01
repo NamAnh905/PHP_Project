@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banner Layout</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    .banner {
+      width: 75%;
+    }
+    .banner img {
+      width: 100%;
+      height: auto;
+    }
+    .sidebar {
+      width: 20%;
+      background-color: #00A9B0;
+      padding: 20px;
+      color: yellow;
+      text-align: center;
+      font-size: 20px;
+    }
+    .thumbnails {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .thumbnails img {
+      width: 100px;
+      height: auto;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="main-content">
+      <!-- Banner section -->
+      <div class="banner">
+        <img src="/img/Avatar_poster.jpg" alt="Main banner" style=" height:500px; object-fit: cover;">
+        <div class="thumbnails">
+          <img src="/img/Avatar_poster.jpg" alt="Thumbnail 1">
+          <img src="/img/Avatar_poster.jpg" alt="Thumbnail 2">
+          <img src="/img/Avatar_poster.jpg" alt="Thumbnail 3">
+          <img src="/img/Avatar_poster.jpg" alt="Thumbnail 4">
+          <img src="/img/Avatar_poster.jpg" alt="Thumbnail 5">
+        </div>
+      </div>
+
+      <!-- Sidebar section -->
+      <div class="sidebar">
+        Bản tin.....
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

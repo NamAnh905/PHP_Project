@@ -1,0 +1,39 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --font-small: 14px;
+    --font-medium: 16px;
+    --font-large: 18px;
+    --border-bottom: solid 0.667px darkgray;
+    --font-title: 'Anton', sans-serif; 
+    --btn-color: #f3ea28;
+    --hover-button-color: rgb(103, 48, 159), rgb(29, 91, 189);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+.grid{
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}

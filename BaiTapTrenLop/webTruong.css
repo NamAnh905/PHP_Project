@@ -1,0 +1,178 @@
+.app{
+
+}
+
+/* Khối header */
+.header{
+    background-color: rgb(5, 173, 5);
+    font-size: var(--font-medium);
+    position: sticky;
+}
+
+.hd__top{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    text-decoration: none;
+    color: var(--white-color);
+    margin-right: 20px;
+}
+
+.login{
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+
+.searching-btn{
+    margin-left: 10px;
+}
+
+.hd__top--left{
+    width: 50%;
+}
+
+.hd__top--right{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.hd__middle{
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid white;
+}
+
+.logo{
+    height: 100px;
+}
+
+.navbar{
+}
+
+.row__menu{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    cursor: pointer;
+    padding-bottom: 10px ;
+}
+
+.row__menu--list{
+    margin: 0 30px;
+    font-size: var(--font-large);
+}
+
+/* Phần thân trang web */
+.main{
+}
+
+
+.main__container{
+    display: flex;
+    justify-content: center;
+}
+
+/* Thân trái */
+.main__container--left{
+    width: 70%;
+}
+
+.main__content{
+
+}
+
+.main__content--title{
+    color: darkgreen;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main__content--news{
+
+}
+
+.news-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.news{
+    width: 24.5%;
+    height: 300px;
+    border: solid 1px black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--font-medium);
+}
+
+.news-title{
+    color: black;
+}
+.news-img{
+    width: 80%;
+    height: 90%;
+    margin-bottom: 10px;
+}
+
+.news-more{
+    color: black;
+    text-align: left;
+}
+/* Thân phải */
+.main__container--right{
+    width: 30%;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.column__menu{
+    height: 100%;
+    background-color: gray;
+    list-style: none;
+    font-size: 24px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.column__menu--list{
+    margin: 10px 0;
+    border-bottom: solid 1px white;
+    padding: 30px 0;
+    cursor: pointer;
+}
+
+.notifications{
+    margin-top: 0 !important;
+}
+
+
+
+/* Phần footer */
+.footer{
+    background-color:rgb(5, 173, 5);
+    bottom: 0;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__title{
+    font-size: 40px;
+    color: black;
+}
+

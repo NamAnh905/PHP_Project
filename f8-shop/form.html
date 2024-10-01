@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+        <style>
+            .title{
+                text-align: center;
+                text-transform: uppercase;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            
+            .list{
+                text-align: left;
+                list-style: none;
+            }
+            .element{
+                list-style: none;
+                margin: 10px 0;
+            }
+            .form{
+                width: 700px;
+                margin: auto;
+                height: 600px;
+                border: solid;
+            }
+            .note{
+                width: 200px;
+                height: 60px;
+                justify-content: left;
+            }
+
+            .btn{
+                padding: 10px 25px;
+                border-radius: 20px;
+                background-color: gray;
+                color: white;
+            }
+
+            #element--gender{
+                border: solid;
+            }
+
+            .nhap{
+                width: 90%;
+            }
+
+            .note{
+                width: 90%;
+            }
+
+            .element--favourite{
+                border: solid;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="form">
+        <h1 class="title" style="font-family: ;">Đăng ký thành viên</h1>
+        <ul class="list">
+            <li class="element element--msv">
+                Mã sinh viên: <br>
+                <label for="msv"></label>
+                <input type="text" id="msv" class="nhap">
+            </li>
+
+            <li class="element element--name">Họ và tên: <br>
+                <label for="name"></label>
+                <input type="text" id="name" class="nhap">
+            </li>
+            <li class="element element--email">Email: <br>
+                <label for="email"></label>
+                <input type="text" id="email" class="nhap">
+            </li>
+
+            <li id="element element--gender">Giới tính: <br>
+                <label for="nam">Nam</label>
+                <input type="radio" id="nam" name="Gender">
+                <label for="nu">Nữ</label>
+                <input type="radio" id="nu" name="Gender">
+            </li>
+
+            <li class="element element--favourite">Sở thích: <br>
+                <label for="reading">Đọc sách</label>
+                <input type="checkbox" id="reading" name="favour">
+                <label for="travel">Du lịch</label>
+                <input type="checkbox" id="travel" name="favour">
+                <label for="music">Âm nhạc</label>
+                <input type="checkbox" id="music" name="favour">
+                <label for="cuisine">Ẩm thực</label>
+                <input type="checkbox" id="cuisine" name="favour">
+                <label for="other">Khác</label>
+                <input type="checkbox" id="other" name="favour">
+
+            </li>
+
+            <li class="element element--nation">Quốc tịch: <br>
+                <select name="" id="">
+                    <option value="">Chọn quốc tịch</option>
+                    <option value="">VietNam</option>
+                    <option value="">China</option>
+                    <option value="">Russia</option>
+                    <option value="">America</option>
+                </select>
+            </li>
+
+            <li class="element element--notes">Ghi chú <br>
+                <label for="note"></label>
+                <input type="text" id="note" class="note">
+            </li>
+
+            <button class="btn">Đăng ký</button>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bar</title>
+    <style>
+        .vmenu{
+            margin: 0px;
+            padding: 0px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px orangered;
+            list-style: none;
+        }
+        .vmenu>li>a{
+            display: block;
+            line-height: 30px;
+            border-bottom: 1px dotted orangered;
+            text-decoration: none;
+            font-variant: small-caps;
+            color: orangered;
+            padding-left: 25px;
+            background: url('b1.gif') no-repeat left center;
+        }
+        .vmenu>li>a:hover {
+            background: url('b2.gif') no-repeat left center;
+            font-weight:bolder;
+            color:red
+        }
+    </style>
+</head>
+
+<body>
+
+        <!-- Menu đứng -->
+    <ul class="vmenu">
+        <li><a href="1.html">Hàng bán chạy</a></li>
+        <li><a href="2.html">Hàng yêu thích</a></li>
+        <li><a href="3.html">Hàng mới</a></li> 
+        <li><a href="4.html">Hàng đặc biệt</a></li>
+        <li><a href="5.html">Hàng giảm giá</a></li>
+    </ul>
+</body>
+</html>
